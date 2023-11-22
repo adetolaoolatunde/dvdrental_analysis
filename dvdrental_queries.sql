@@ -132,7 +132,7 @@ using(film_id)
 
 -- #12
 -- Display the moves offered for rent in any of the two stores 1 & 2
-select distinct(f.title), i.store_id
+select distinct(f.title)
 from film as f
 join inventory as i
 using(film_id)
@@ -168,7 +168,7 @@ limit 1
 
 -- #15
 -- How many movies are not offered for rent in the stores yet
-select f.title
+select count(f.title) as movie_count
 from film as f
 left join inventory as i
 using(film_id)
