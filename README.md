@@ -1,5 +1,7 @@
 # DVD Rental Database Analysis
 
+![Postgres SQL](img/pgsql.png)
+
 ## Overview
 
 This repository contains the results of a comprehensive data analysis performed on a popular DVD rental database. The database was restored from a .tar archive file into a PostgreSQL server, and it consists of 15 tables capturing various aspects of the DVD rental business.
